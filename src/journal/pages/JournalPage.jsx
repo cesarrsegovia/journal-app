@@ -1,11 +1,17 @@
 import { Typography } from "@mui/material"
+import { JournalLayout } from "../layout/JournalLayout"
+
+
 
 
 export const JournalPage = () => {
     return (
-        <>
-            //agregando componente de tipografia para exportar al journal page
-            <Typography variant='h1'>JournalPage</Typography>
-        </>
+        <JournalLayout>
+            <Typography>git pull origin main
+            actualiza los cambios del repositorio</Typography>
+
+            {/* NothinSelectesd  */}
+            {/* Noteview  */}
+        </JournalLayout>
     )
 }
